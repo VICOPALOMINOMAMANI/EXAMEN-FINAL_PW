@@ -160,6 +160,5 @@
       "estado": "Pendiente",
       "id": "zPZha_wmCNM"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
