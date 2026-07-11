@@ -79,6 +79,24 @@
       "necesidades": "Medicamentos y alimentación",
       "observaciones": "Vive sola",
       "estado": "Activo"
+    },
+      {
+      "id": "4",
+      "nombres": "Ignacio",
+      "apellidos": "Torres Duran",
+      "dni": "12547896",
+      "fechaNacimiento": "1955-04-14",
+      "sexo": "Masculino",
+      "telefono": "986574812",
+      "direccion": "Av. La Cultura 1550",
+      "distrito": "Wanchaq",
+      "contactoFamiliar": "Sara Calla",
+      "telefonoFamiliar": "985457584",
+      "estadoSalud": "Diabetes tipo 1",
+      "nivelVulnerabilidad": "Medio",
+      "necesidades": "Control médico mensual",
+      "observaciones": "Vive con una hija",
+      "estado": "Activo"
     }
   ],
   "voluntarios": [
@@ -101,6 +119,18 @@
       "dni": "74561238",
       "correo": "ana.vargas@email.com",
       "telefono": "984567231",
+      "distrito": "San Sebastián",
+      "disponibilidad": "Tardes",
+      "especialidad": "Acompañamiento social",
+      "estado": "Activo"
+    },
+     {
+      "id": "3",
+      "nombres": "Patricia",
+      "apellidos": "Huillca Huaman",
+      "dni": "45879621",
+      "correo": "patriciah@email.com",
+      "telefono": "985749632",
       "distrito": "San Sebastián",
       "disponibilidad": "Tardes",
       "especialidad": "Acompañamiento social",
@@ -137,7 +167,7 @@
       "descripcion": "La adulta mayor no cuenta con medicamentos para diabetes.",
       "nivel": "Crítico",
       "fechaRegistro": "2026-07-09",
-      "responsable": "María Quispe",
+      "responsable": "Rosa María Quispe",
       "estado": "Pendiente"
     },
     {
@@ -147,13 +177,13 @@
       "descripcion": "Se requiere verificar su estado de movilidad.",
       "nivel": "Alto",
       "fechaRegistro": "2026-07-08",
-      "responsable": "Carlos Ramos",
+      "responsable": "Carlos Ramos Flores",
       "estado": "En atención"
     },
     {
       "adultoMayorId": "1",
       "titulo": "Falta de medicamentos",
-      "descripcion": "Considerar llevar",
+      "descripcion": "Llevar medicamentos genericos",
       "nivel": "Bajo",
       "fechaRegistro": "2026-07-10",
       "responsable": "Carlos Ramos Flores",
