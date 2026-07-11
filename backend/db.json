@@ -1,0 +1,164 @@
+{
+ "usuarios": [
+  {
+    "id": "1",
+    "nombre": "Administrador General",
+    "correo": "admin@ayllucare.com",
+    "password": "admin123",
+    "rol": "Administrador",
+    "estado": "Activo"
+  },
+  {
+    "id": "2",
+    "nombre": "María Quispe",
+    "correo": "voluntario1@ayllucare.com",
+    "password": "voluntario123",
+    "rol": "Voluntario",
+    "estado": "Activo"
+  },
+  {
+    "id": "3",
+    "nombre": "Luis Huamán",
+    "correo": "voluntario2@ayllucare.com",
+    "password": "voluntario123",
+    "rol": "Voluntario",
+    "estado": "Activo"
+  }
+],
+  "adultosMayores": [
+    {
+      "id": "1",
+      "nombres": "Rosa",
+      "apellidos": "Mamani Quispe",
+      "dni": "45678912",
+      "fechaNacimiento": "1948-06-15",
+      "sexo": "Femenino",
+      "telefono": "987654321",
+      "direccion": "Av. La Cultura 1250",
+      "distrito": "Wanchaq",
+      "contactoFamiliar": "Elena Mamani",
+      "telefonoFamiliar": "986321456",
+      "estadoSalud": "Hipertensión controlada",
+      "nivelVulnerabilidad": "Medio",
+      "necesidades": "Control médico mensual",
+      "observaciones": "Vive con una hija",
+      "estado": "Activo"
+    },
+    {
+      "id": "2",
+      "nombres": "Julio",
+      "apellidos": "Condori Huallpa",
+      "dni": "41236789",
+      "fechaNacimiento": "1942-11-03",
+      "sexo": "Masculino",
+      "telefono": "984123789",
+      "direccion": "Urb. Ttio Mz. B Lote 8",
+      "distrito": "Wanchaq",
+      "contactoFamiliar": "Pedro Condori",
+      "telefonoFamiliar": "978654123",
+      "estadoSalud": "Movilidad reducida",
+      "nivelVulnerabilidad": "Alto",
+      "necesidades": "Apoyo para movilización",
+      "observaciones": "Requiere visitas frecuentes",
+      "estado": "Activo"
+    },
+    {
+      "id": "3",
+      "nombres": "Dominga",
+      "apellidos": "Huamán Ccopa",
+      "dni": "43876521",
+      "fechaNacimiento": "1950-02-21",
+      "sexo": "Femenino",
+      "telefono": "981456732",
+      "direccion": "APV Los Incas",
+      "distrito": "San Sebastián",
+      "contactoFamiliar": "Sin contacto registrado",
+      "telefonoFamiliar": "",
+      "estadoSalud": "Diabetes",
+      "nivelVulnerabilidad": "Crítico",
+      "necesidades": "Medicamentos y alimentación",
+      "observaciones": "Vive sola",
+      "estado": "Activo"
+    }
+  ],
+  "voluntarios": [
+    {
+      "id": "1",
+      "nombres": "Carlos",
+      "apellidos": "Ramos Flores",
+      "dni": "73456789",
+      "correo": "carlos.ramos@email.com",
+      "telefono": "987123456",
+      "distrito": "Cusco",
+      "disponibilidad": "Fines de semana",
+      "especialidad": "Primeros auxilios",
+      "estado": "Activo"
+    },
+    {
+      "id": "2",
+      "nombres": "Ana",
+      "apellidos": "Vargas Soto",
+      "dni": "74561238",
+      "correo": "ana.vargas@email.com",
+      "telefono": "984567231",
+      "distrito": "San Sebastián",
+      "disponibilidad": "Tardes",
+      "especialidad": "Acompañamiento social",
+      "estado": "Activo"
+    }
+  ],
+  "visitas": [
+    {
+      "id": "1",
+      "adultoMayorId": "2",
+      "voluntarioId": "1",
+      "fecha": "2026-07-15",
+      "hora": "10:00",
+      "motivo": "Seguimiento de salud",
+      "observaciones": "Verificar medicamentos",
+      "estado": "Programada"
+    },
+    {
+      "id": "2",
+      "adultoMayorId": "3",
+      "voluntarioId": "2",
+      "fecha": "2026-07-16",
+      "hora": "15:30",
+      "motivo": "Entrega de alimentos",
+      "observaciones": "Confirmar estado general",
+      "estado": "Pendiente"
+    }
+  ],
+  "alertas": [
+    {
+      "id": "1",
+      "adultoMayorId": "3",
+      "titulo": "Falta de medicamentos",
+      "descripcion": "La adulta mayor no cuenta con medicamentos para diabetes.",
+      "nivel": "Crítico",
+      "fechaRegistro": "2026-07-09",
+      "responsable": "María Quispe",
+      "estado": "Pendiente"
+    },
+    {
+      "id": "2",
+      "adultoMayorId": "2",
+      "titulo": "Visita prioritaria",
+      "descripcion": "Se requiere verificar su estado de movilidad.",
+      "nivel": "Alto",
+      "fechaRegistro": "2026-07-08",
+      "responsable": "Carlos Ramos",
+      "estado": "En atención"
+    },
+    {
+      "adultoMayorId": "1",
+      "titulo": "Falta de medicamentos",
+      "descripcion": "Considerar llevar",
+      "nivel": "Bajo",
+      "fechaRegistro": "2026-07-10",
+      "responsable": "Carlos Ramos Flores",
+      "estado": "Pendiente",
+      "id": "zPZha_wmCNM"
+    }
+  ]
+}
